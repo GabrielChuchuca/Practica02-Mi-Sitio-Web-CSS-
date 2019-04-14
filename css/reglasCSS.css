@@ -1,3 +1,4 @@
+/*selectores por clase*/
 a.bordermenu{
     border-width: 5px;
     border-color:red;
@@ -9,6 +10,7 @@ a.bordermenu{
 
 }
 
+/*selectores por etiquetas*/
 header, footer{
     border-color:yellow;
     border-style: groove;
@@ -18,6 +20,8 @@ header, footer{
     float: left;
     border: 1%
 }
+
+/*selectores por clase*/
 nav.bordermenunav{
     margin: 5px;
    background-color: yellow;
@@ -28,6 +32,7 @@ nav.bordermenunav{
     float: left
 }
 
+/*selectores por id*/
 nav#bordermenunave{
     margin: 5px;
    background-color: yellowgreen;
@@ -38,6 +43,7 @@ nav#bordermenunave{
     float: left
 }
 
+/*selectores por clase*/
 section.bordersec{
     border-width: 5px;
     border-color:red;
@@ -47,6 +53,8 @@ section.bordersec{
     margin: 5px;
     border-radius: 10px;
 }
+
+/*selectores por clase*/
 .thrcolumn{
     border-width: 5px;
     border-color:red;
@@ -56,10 +64,10 @@ section.bordersec{
     margin: 5px;
     border-radius: 10px;
 }
+
+/*selectores descendentes*/
 dt span{
     color: #5C584E;
 }
-dd span{
-    color:#201807;
-}
+
 
