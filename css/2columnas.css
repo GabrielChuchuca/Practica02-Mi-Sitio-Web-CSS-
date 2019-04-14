@@ -1,0 +1,32 @@
+
+
+a, footer{
+    border-color:yellow;
+    border-style: groove;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    float: left;
+    border: 1%
+}
+
+nav{
+    width: 20%;
+    margin: 5px;
+   background-color: aquamarine;
+    border-width: 5px;
+    border-color:blue;
+    border-style: groove;
+    border-radius: 10px;
+    float: left
+}
+section{
+    width: 75%;
+    border-width: 5px;
+    border-color:red;
+    border-style: groove;
+    background-color: greenyellow;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
