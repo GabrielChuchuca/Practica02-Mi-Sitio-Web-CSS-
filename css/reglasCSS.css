@@ -81,5 +81,16 @@ dt#tipolet{
     font-family: "Times New Roman";
 }
 
+/*selectores descendentes*/
+section article span dt{
+    color: #802308;
+    font-family: "Algerian" 
+}
+
+.dd:first-letter{
+    text-transform: uppercase
+    
+}
+
 
 
