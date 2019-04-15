@@ -87,11 +87,18 @@ section article span dt{
     font-family: "Algerian" 
 }
 
- *dd::first-letter{
-    font-size: 200%;
-    color:red
-    
+/*selectores por etiquetas*/
+label, .button{
+display: block;
+margin:20px
 }
+
+legend::first-letter{
+    font-size: 200%;
+        color: aqua
+}
+
+
 
 
 
