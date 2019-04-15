@@ -29,7 +29,9 @@ nav.bordermenunav{
     border-color:blue;
     border-style: groove;
     border-radius: 10px;
-    float: left
+    float: left;
+
+
 }
 
 /*selectores por id*/
@@ -40,7 +42,9 @@ nav#bordermenunave{
     border-color:blue;
     border-style: groove;
     border-radius: 10px;
-    float: left
+    float: left;
+
+
 }
 
 /*selectores por clase*/
@@ -69,6 +73,12 @@ section.bordersec{
 dt span{
     color: #5C584E;
     font-family: "Arial Narrow" , Arial, sans-serif;
+}
+
+/*selectores por id*/
+dt#tipolet{
+    color: #3E8C07;
+    font-family: "Times New Roman";
 }
 
 
