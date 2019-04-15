@@ -18,7 +18,7 @@ header, footer{
     background-color:#48AF72;
     border-radius: 10px;
     float: left;
-    border: 1%
+
 }
 
 /*selectores por clase*/
@@ -87,15 +87,31 @@ section article span dt{
     font-family: "Algerian" 
 }
 
-/*selectores por etiquetas*/
-label, .button{
+/*selectores por etiquetas con id*/
+#nombre, #correoelectronico, #msg{
 display: block;
-margin:20px
+margin:20px;
+padding-right: 200px;
+padding-bottom: 30px;
+
 }
 
+/*selectores por clase*/
+.button{
+    display: block;
+margin:20px;
+}
+
+/*pseudoclase*/
 legend::first-letter{
-    font-size: 200%;
-        color: aqua
+    font-size: 250%;
+        color:red
+}
+
+label::first-letter{
+    font-size: 250%;
+        color:green
+
 }
 
 
