@@ -43,8 +43,6 @@ nav#bordermenunave{
     border-style: groove;
     border-radius: 10px;
     float: left;
-
-
 }
 
 /*selectores por clase*/
@@ -108,11 +106,6 @@ legend::first-letter{
         color:red
 }
 
-label::first-letter{
-    font-size: 250%;
-        color:green
-
-}
 
 
 
