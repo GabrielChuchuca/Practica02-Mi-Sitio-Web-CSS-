@@ -87,7 +87,7 @@ section article span dt{
     font-family: "Algerian" 
 }
 
- article dd::first-letter{
+ *dd::first-letter{
     font-size: 200%;
     color:red
     
